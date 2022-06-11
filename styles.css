@@ -8,7 +8,7 @@
   text-decoration: none;
   font-family: 'Josefin Sans', sans-serif;
 }
-.sidebar_mobile{
+.navbar{
   display: none;
 }
 
@@ -552,20 +552,34 @@ header{
   .sidebar{
     display: none;
   }
-  .sidebar_mobile{
-    background-color: #e0e4e8;
-    display: block;
-    position:sticky;
-    bottom: 0;
-    left: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 100%;
-    padding: 10px;
+
+/* mobile navbar kosam */
+
+.navbar {
+  overflow: hidden;
+  background-color: #fff;
+  position:fixed;
+  bottom: 0;
+  width: 90%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #f1f1f1;
+  color: rgb(32, 84, 241);
+}
+
+/* mobile nav bar ends */
 
 
-  }
   .propic{
     height: 30%;
     width: 30%;
